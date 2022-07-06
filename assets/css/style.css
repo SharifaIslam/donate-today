@@ -1,22 +1,26 @@
 body{
     font-family: 'Open Sans', sans-serif;
-}
 
+}
+input {
+    outline: none;
+}
 body .banner {
-   background-image: url(../images/donation3.jpg);
+   background-image: url(../images/UN0642170.jpg);
    background-repeat: no-repeat;
-   background-position: center center;
+   background-position: center top;
    background-size: cover;
    width: 100%;
-   height: 500px;
+   height: 90vh;
    text-align: center;
-   /* background: linear-gradient(to top, white, black);
-   z-index: 1; */
+
+   
 }
 body .banner h1 {
     font-size: 65px;
     color: #FFFFFF;
     margin: 0px auto;
+    text-shadow: 5px 5px 5px rgb(85, 85, 85);
     width: 55%;
     padding-top: 100px;
     text-align: center;
@@ -28,6 +32,7 @@ body .banner p {
     text-align: center;
     margin: 0px auto;
     text-align: center;
+    text-shadow: 5px 5px 5px rgb(15, 15, 15);
 
 }
 body .banner button {
@@ -124,7 +129,7 @@ body .plan .food {
 }
 body .plan .boxes {
     width: 70%;
-    margin: 0px auto;
+    margin: 40px auto;
     display: flex;
 }
 body .plan .food {
@@ -230,9 +235,7 @@ body .leaders .form {
     width: 460px;
     height: 460px;
     box-sizing: border-box;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 70px;
+    margin: 50px 70px 50px 60px;
   }
   .form h2 {
     color: #ffffff;
@@ -265,41 +268,51 @@ body .leaders .form {
     margin: 30px auto;
     margin-bottom: 10px;
   }
- body .update {
+  body .update {
     text-align: center;
+    margin-top: 50px;
+    margin: 0px 200px;
+ } 
+
+ .color {
+	padding: 80px 200px 70px 200px;
+	background-color: #fff4d6;
+	border-radius: 10px;
+	margin: 30px 100px 0px 100px;
+}
+.color input {
+	padding: 14px;
+	width: 300px;
+	font-size: 14px;
+	font-weight: 500;
+	border: none;
+	background-color: #d9d9d9;
+	color: #aa9f9f;
+	transform: translate(5px, 0px);
+	border-radius: 5px 0px 0px 5px;
+}
+.update .color button {
+	border: none;
+	width: 20%;
+	padding: 14px;
+	border-radius: 0px 6px 6px 0px;
+	background-color: #ff5959;
+	color: #ffffff;
+	font-size: 14px;
+}
+ .black {
+     background-color: #121212;
+     text-align: center;
+
  }
- body .update .colour {
-    background-color: #FFF4D6;
-    width: 50%;
-    margin: 0px auto; 
-    display: flex;
+ .black h1 {
+    font-style: italic;
+    color: #FF5959;
+    padding-top: 40px;
     
-
  }
- body .update .colour form {
-     padding: 100px 30px 30px 100px;
-     width: 45%;
-     margin: 0px auto;
-
-     
-     
- }
-.update .colour input {
-    border: none;
-    width: 60%;
-    padding: 14px;
-    border-radius: 6px 0px 0px 6px;
-    background-color: #dfdfdf;
-    transform: translate(2px 4px);
-
-    
-     
- }
- .update .colour button {
-    border: none;
-    width: 30%;
-    padding: 14px;
-    border-radius: 0px 6px 6px 0px;
-    background-color:#FF5959;
-    color: #FFFFFF;
+ .black h5 {
+     color: #B3B3B3;
+     font-weight: 200;
+     padding-bottom: 50px;
  }
