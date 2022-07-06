@@ -122,3 +122,184 @@ body .plan p {
 body .plan .food {
     background-color: #FAFAFA;
 }
+body .plan .boxes {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+}
+body .plan .food {
+    width: 25%;
+    background-color: #d5f6f8;
+    margin: 20px;
+    text-align: left;
+    padding: 30px;
+    border-radius: 4px;
+}
+body .plan .food img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+body .plan .food h1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+body .plan .food p {
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    width: 92%;
+}
+
+body .plan .shelter {
+    width: 25%;
+    background-color: #FFEEEE;
+    margin: 20px;
+    text-align: left;
+    padding: 30px;
+    border-radius: 4px;
+}
+body .plan .shelter img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+body .plan .shelter h1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+body .plan .shelter p {
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    width: 92%;
+}
+
+body .plan .education {
+    width: 25%;
+    background-color: #FFF4D6;
+    margin: 20px;
+    text-align: left;
+    padding: 30px;
+    border-radius: 4px;
+}
+body .plan .education img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+body .plan .education h1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+body .plan .education p {
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    width: 92%;
+}
+body .container {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    margin-top: 50px;
+
+}
+body .member {
+    width: 45%;
+    padding: 130px 10px 30px 100px;
+    
+}
+body .member h1 {
+    font-size: 40px;
+}
+body .member p {
+    text-align: justify;
+}
+
+body .form {
+    width: 45%;
+}
+body .leaders .form {
+    background: #252020;
+    border-radius: 100%;
+    text-align: center;
+    padding: 6em;
+    width: 460px;
+    height: 460px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+  }
+  .form h2 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
+  .form input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    box-shadow: none;
+    height: 45px;
+    margin-top: 10px;
+    outline: none;
+    width: 100%;
+  }
+  .form #get {
+    margin-top: 30px;
+    display: inline-block; 
+    text-decoration: none;
+  }
+  .form a {
+    background: #ffffff;
+    border-radius: 50px;
+    border: 0;
+    color: #252020;
+    padding: 18px 24px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+  }
+ body .update {
+    text-align: center;
+ }
+ body .update .colour {
+    background-color: #FFF4D6;
+    width: 50%;
+    margin: 0px auto; 
+    display: flex;
+    
+
+ }
+ body .update .colour form {
+     padding: 100px 30px 30px 100px;
+     width: 45%;
+     margin: 0px auto;
+
+     
+     
+ }
+.update .colour input {
+    border: none;
+    width: 60%;
+    padding: 14px;
+    border-radius: 6px 0px 0px 6px;
+    background-color: #dfdfdf;
+    transform: translate(2px 4px);
+
+    
+     
+ }
+ .update .colour button {
+    border: none;
+    width: 30%;
+    padding: 14px;
+    border-radius: 0px 6px 6px 0px;
+    background-color:#FF5959;
+    color: #FFFFFF;
+ }
